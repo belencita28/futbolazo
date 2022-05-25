@@ -86,13 +86,27 @@ h3{
     3px 8px  5px rgba(0,0,0,0.5);
 
 }
+/*rgba(255, 255, 255, 0.384)*/
 #botondecomenzar{
-    background-color: rgba(255, 255, 255, 0.384);
-    height: 10%;
+    background-color: white;
+    height: 7%;
     width: 90%;
     color: black;
-    font-size: 400%;
+    margin-top: 20%;
+    font-size: 120%;
     border-radius: 20%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#botondecomenzar:hover{
+    background-color: black;
+    color: white;
+}
+
+#textocomenzar{
+    
+    padding-top: 5%;
 }
 
 #modulopartidos{

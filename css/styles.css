@@ -17,12 +17,16 @@ hr{
     color: #B0EACD;
    
 }
+
 #main{
     
-    height: 70%;
+    height: 90%;
     width: 100%;
     display: flex;
-    background-color: blue;
+    background-image: url("../img/principal.png");
+    
+    background-attachment: fixed;
+    z-index: -1;
     
 }
 h3{
@@ -30,15 +34,7 @@ h3{
     font-size: 2ch;
     font-weight:600;
 }
-.noticias{
-background-color: transparent;
-display: flex;
-margin-left: 2%;
-margin-right: 2%;
-width: 220.5;
-height: 146.98;
 
-}
 .noticias img{
     border-radius: 3%;
 }
@@ -52,12 +48,12 @@ height: 146.98;
     height: 130.17;   
 }
 #div2{
-    margin-top: 10%;
+    margin-top: 300%;
    display: flex; 
     height: 89.5%;
   margin-left: 12%;
   /*Cambiar para resolucion de monitor*/  
-    
+
 }
 #partido{
     display: flex;
@@ -71,13 +67,38 @@ height: 146.98;
     
 }
 
+#textoprincipal{
+    background-color: transparent;
+    width: 31%;
+    height: 200%;
+    border-radius: 5%;
+   margin-left: 70%;
+   
+   margin-top: 5%;  
+   font-size: xx-large;
+}
+#primerp{
+    font: bold 80px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow:3px 8px 15px rgba(0,0,0,0.5),
+    3px 8px  5px rgba(0,0,0,0.5);
 
+}
+#botondecomenzar{
+    background-color: rgba(255, 255, 255, 0.384);
+    height: 10%;
+    width: 90%;
+    color: black;
+    font-size: 400%;
+    border-radius: 20%;
+}
 
 #modulopartidos{
     margin-right: 5%;
     margin-left: 5%;
     width: auto;
-    height: 18.2%;
+    height: 180%;
     display: flex;
     background-color: red;
 }
@@ -91,7 +112,7 @@ height: 146.98;
 #barra{
     border-bottom: 0.5px solid #e7e7e7;
     background-color: white;
-   
+    z-index: 5;
     margin-top: 0;
     position: sticky;
     height: 9%;
@@ -104,7 +125,7 @@ height: 146.98;
         height: 10%;
     }
     #div2{
-        margin-top: -10%;
+        margin-top: 10%;
        display: flex; 
         height: 89.5%;
       margin-left: 12%;
@@ -136,8 +157,8 @@ height: 146.98;
     background-color: transparent;
    margin-top: 2%;
   text-align: center;
-  width: 50%;
-  margin-left: 25%;
+  width: 60%;
+  margin-left: 10%;
 
 } 
   

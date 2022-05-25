@@ -32,10 +32,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 10%;
 transition: 0.5s;
 }
-#banderapartido:hover{
-    transform: scale(1.1);
-    
-}
+
 
 
 
@@ -43,11 +40,11 @@ transition: 0.5s;
 #iconolocal{
     
     
-    margin-left: 5.5%;
+    margin-left: 3.5%;
     margin-right: 2%;
     margin-top: 6%;
     margin-bottom: 6%;
-    width: 32%;
+    width: 25%;
     height: auto;  
 }
 
@@ -61,16 +58,18 @@ transition: 0.5s;
     margin-top: 23%;
     margin-bottom: 10%;
     text-align: center;
+    margin-left: 9%;
+    margin-right: 2%;
     font-size: x-large;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 #iconovisitante{
   
-    margin-left: 2%;
+    margin-left: 9%;
     margin-right: 2%;
     margin-top: 6%;
     margin-bottom: 6%;
-    width: 32%;
+    width: 25%;
     height: auto;
     
 }

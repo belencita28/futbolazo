@@ -28,6 +28,7 @@ hr{
 h3{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2ch;
+    font-weight:600;
 }
 .noticias{
 background-color: transparent;
@@ -55,7 +56,7 @@ height: 146.98;
    display: flex; 
     height: 89.5%;
   margin-left: 12%;
-    
+  /*Cambiar para resolucion de monitor*/  
     
 }
 #div3{
@@ -63,6 +64,7 @@ height: 146.98;
    display: flex; 
     height: 89.5%;
   margin-left: 13%;   
+  /*Cambiar para resolucion de monitor */
 }
 #barra{
     border-bottom: 0.5px solid #e7e7e7;
@@ -73,6 +75,34 @@ height: 146.98;
     height: 9%;
     top: 0;
 } 
+
+@media screen and (max-width: 1366px) {
+   
+    #barra {
+        height: 10%;
+    }
+    #div2{
+        margin-top: -10%;
+       display: flex; 
+        height: 89.5%;
+      margin-left: 12%;
+        
+        
+    }
+    #div3{
+        margin-top: -2%;
+       display: flex; 
+        height: 89.5%;
+      margin-left: 13%;   
+    }
+  }
+
+  @media screen and (max-width: 0px) {
+       /*hacer mobile */
+
+  }
+
+
 #publicidadmainimagen{
     width: 100%;
     height: 50.1%;
@@ -94,8 +124,10 @@ height: 146.98;
 
 footer {
     height: 20%;
-    background-color: #178550; 
+    background-color: #e1e0e7; 
+  
     margin-bottom: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 
@@ -113,9 +145,10 @@ footer {
 
 }
 th, td {
-    color: #17c571;
+    color: black;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 150px;
+    text-align: center;
     padding-right: 150px;
   }

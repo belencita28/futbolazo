@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
 
-
 #img{
     top: 0px;
     margin-top: -5px;
@@ -14,7 +13,8 @@ body{
     margin: 0%;
     background-attachment: fixed;
     z-index: -1;
-    background-image: url("../img/otras/estadio.png");
+    background-image: url("../img/otras/ball2.png");
+ 
 
 }
 hr{
@@ -145,7 +145,7 @@ background-color: white;
 }
 #barra{
     
-    background-color: rgba(255, 255, 255, 0.158);
+    background-color: transparent;
     z-index: 5;
     margin-top: 0;
     height: 9%;

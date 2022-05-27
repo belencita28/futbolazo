@@ -15,17 +15,24 @@
 			<div>Futbo<span>lazo</span></div>
 		</div>
 		<br>
-		<div class="login">
+		<div class="login" id="login">
 				<input type="text" placeholder="usuario" name="usuario">
                 <input type="text" placeholder="mail" name="mail"><br>
 				<input type="password" placeholder="contraseña" name="contraseña"><br>
                 <input type="password" placeholder="confirmar contraseña" name="contraseña"><br>
 				<input type="button" value="Registrarme">
                 <p>Registrarme con google <a href="#">Sign up</a>.</p>
-                <p>Ya tienes una cuenta? <a href="#">Sign in</a>.</p>
+                <p>Ya tienes una cuenta? <a href="#" onclick="contenedorlogin()">Sign in</a>.</p>
                 
 		</div>
-
+        <div class="register" id="login2">
+            <input type="text" placeholder="mail" name="mail"><br>
+            <input type="password" placeholder="contraseña" name="contraseña"><br>
+            <input type="button" value="Login">
+            <p>Registrarme con google <a href="#">Sign up</a>.</p>
+            <p>No tienes una cuenta? <a href="#" onclick="contenedorregister()" >Sign up</a>.</p>
+            
+    </div>
 
     </body>
 </html>

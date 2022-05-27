@@ -99,6 +99,7 @@ img{
   }
   
   .login{
+      display: block;
       position: absolute;
       top: calc(50% - 120px);
       left: calc(50% - 50px);
@@ -180,3 +181,93 @@ img{
   ::-moz-input-placeholder{
      color: rgba(255,255,255,0.6);
   }
+
+
+
+
+
+
+   
+  .register{
+    display: none;
+    position: absolute;
+    top: calc(50% - 120px);
+    left: calc(50% - 50px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.register input[type=text]{
+    margin-top: 10px;
+    width: 260px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+.register input[type=password]{
+    width: 260px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.register input[type=button]{
+    width: 260px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: black;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.register input[type=button]:hover{
+    opacity: 0.8;
+}
+
+.register input[type=button]:active{
+    opacity: 0.6;
+}
+
+.register input[type=text]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.register input[type=password]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.register input[type=button]:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}

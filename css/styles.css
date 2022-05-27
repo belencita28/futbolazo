@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
 #img{
     top: 0px;
     margin-top: -5px;
@@ -10,7 +14,8 @@ body{
     margin: 0%;
     background-attachment: fixed;
     z-index: -1;
-    background-image: url("../img/principal.png");
+    background-image: url("../img/otras/estadio.png");
+
 }
 hr{
     
@@ -128,15 +133,17 @@ background-color: white;
 }
 #barra{
     
-    background-color: rgba(255, 255, 255, 0.24);
+    background-color: rgba(255, 255, 255, 0.158);
     z-index: 5;
     margin-top: 0;
-    position: sticky;
     height: 9%;
     top: 0;
 } 
+.cambiar{
+    background-color: rgb(153, 20, 20);   
+}
 
-/*@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
    
     #barra {
         height: 10%;
@@ -149,11 +156,8 @@ background-color: white;
     }
   }
 
-  @media screen and (max-width: 0px) {
-       hacer mobile 
 
-  }
-  */
+  
 
 
 #publicidadmainimagen{

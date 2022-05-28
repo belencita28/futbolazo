@@ -14,7 +14,11 @@ li {
 .l{
   margin-top: 19px;
 }
-
+#barra{
+  background-color: transparent;
+  /*realmente no sirve para nada pero contiene todo lo de la barra adentro, puede servir para especificar
+  cosas a futuro -morza */
+} 
 
 .selected,
 li a:hover {

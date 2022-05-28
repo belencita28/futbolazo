@@ -13,8 +13,9 @@ body{
     margin: 0%;
     background-attachment: fixed;
     z-index: -1;
-    background-image: url("../img/otras/ball2.png");
+    background-image: url("../img/otras/estadio2.jpg");
  
+
 
 }
 
@@ -32,17 +33,24 @@ body{
 #textoprincipal{
 
     border-radius: 5%;
-   margin-left: 70%;
+   margin-left: 60%;
    
-   margin-top: 5%;  
+   margin-top: 7%;  
    font-size: xx-large;
 }
 #primerp{
-    font: bold 80px;
     text-transform: uppercase;
     color: white;
     text-shadow:3px 8px 15px rgba(0,0,0,0.5),
     3px 8px  5px rgba(0,0,0,0.5);
+
+}
+#segundop{
+  margin-top: -5%;
+  text-transform: uppercase;
+  color: white;
+  text-shadow:3px 8px 15px rgba(0,0,0,0.5),
+  3px 8px  5px rgba(0,0,0,0.5);
 
 }
 /*rgba(255, 255, 255, 0.384)*/
@@ -98,6 +106,25 @@ background-color: white;
     #botonvernoticias{
         margin-left: 2%;
     }
+    body{
+      background-image: url("../img/otras/ball2.png");
+    }
+    #textoprincipal{
+
+      border-radius: 5%;
+     margin-left: 70%;
+     
+     margin-top: 5%;  
+     font-size: xx-large;
+  }
+  #primerp{
+      font: bold 80px;
+      text-transform: uppercase;
+      color: white;
+      text-shadow:3px 8px 15px rgba(0,0,0,0.5),
+      3px 8px  5px rgba(0,0,0,0.5);
+  
+  }
     
 } 
 

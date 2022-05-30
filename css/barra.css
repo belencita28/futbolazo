@@ -28,7 +28,7 @@ li a:hover {
   border-bottom: 2px solid white; /*Cambiar para el modo claro */
   padding-bottom: 10px;
 }
-a {
+#b{
  
   text-decoration: none;
   color: white; /*Cambiar para el modo claro */
@@ -40,7 +40,7 @@ a {
     margin-top: 0px;
   }
   .l{
-    margin-top: 5px;
+    margin-top: -10px;
   }
   li #marg{
     float: right;

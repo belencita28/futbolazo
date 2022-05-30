@@ -17,10 +17,10 @@
     <div id="barra">
         <header id="header">
             <ul id="navbar">
-                <li style="float: right;margin-right: 1%" class="l" id="marg"><a href="registro.html">Registrarme</a></li>
+                <li style="float: right;margin-right: 1%" class="l" id="marg"><a id="b" href="registro.html">Registrarme</a></li>
                 <!-- dentro de registrarme boton de ya tienes ua cuenta -->
-              <li style="float: right;margin-right: 0%" class="l"><a href=""> Partidos</a></li>
-              <li style="float: right;margin-right: 0%;" class="l"><a href="">Inicio</a></li>
+              <li style="float: right;margin-right: 0%" class="l"><a id="b" href=""> Partidos</a></li>
+              <li style="float: right;margin-right: 0%;" class="l"><a id="b" href="">Inicio</a></li>
              <!--  <li style="float: left;margin-left: -1%;margin-top: 0%;" id="marg2" > <img id="img" src='img/logoblanco2.png' alt=""></li>-->
             </ul>
         </header>
@@ -38,7 +38,7 @@
     </div>
 
     <div id="espaciocreadoporqueodiocss3">   
-        <div id="botonvernoticias"><a id="enlacevernoticias" href=""><span>Ver todas las noticias </span></a></div>
+        <div id="botonvernoticias"><a style="color: black;" id="enlacevernoticias" href=""><span>Ver todas las noticias </span></a></div>
      </div>
     <div id="modulonoticias">
         <div id="noticias"><img id="imagennoticia" src="img/img slider prueba/foto1.jpg" alt="">
@@ -105,41 +105,43 @@
  <div id="pencas">
 
 
-    <div class="container">
+
         
-        <div class="table">
-            <div class="table-header">
-                <div class="headeritem"><a>Name</a></div>
-                <div class="headeritem"><a>Wins</a></div>
-                <div class="headeritem"><a>Draws</a></div>
-                <div class="headeritem"><a>Losses</a></div>
-                <div class="headeritem"><a>Total</a></div>
-            </div>
-            <div class="table-content">	
-                <div class="table-row">		
-                    <div class="tabledata">Tom</div>
-                    <div class="tabledata">2</div>
-                    <div class="tabledata">0</div>
-                    <div class="tabledata">1</div>
-                    <div class="tabledata">5</div>
-                </div>
-                <div class="table-row">
-                    <div class="tabledata">Dick</div>
-                    <div class="tabledata">1</div>
-                    <div class="tabledata">1</div>
-                    <div class="tabledata">2</div>
-                    <div class="tabledata">3</div>
-                </div>
-                <div class="table-row">
-                    <div class="tabledata">Harry</div>
-                    <div class="tabledata">0</div>
-                    <div class="tabledata">2</div>
-                    <div class="tabledata">2</div>
-                    <div class="tabledata">2</div>
-                </div>
-            </div>	
-        </div>
-    </div>
+        <div class="container">
+            <ul class="responsive-table">
+              <li class="table-header">
+                <div class="col col-1">Job Id</div>
+                <div class="col col-2">Customer Name</div>
+                <div class="col col-3">Amount Due</div>
+                <div class="col col-4">Payment Status</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Job Id">42235</div>
+                <div class="col col-2" data-label="Customer Name">John Doe</div>
+                <div class="col col-3" data-label="Amount">$350</div>
+                <div class="col col-4" data-label="Payment Status">Pending</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Job Id">42442</div>
+                <div class="col col-2" data-label="Customer Name">Jennifer Smith</div>
+                <div class="col col-3" data-label="Amount">$220</div>
+                <div class="col col-4" data-label="Payment Status">Pending</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Job Id">42257</div>
+                <div class="col col-2" data-label="Customer Name">John Smith</div>
+                <div class="col col-3" data-label="Amount">$341</div>
+                <div class="col col-4" data-label="Payment Status">Pending</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Job Id">42311</div>
+                <div class="col col-2" data-label="Customer Name">John Carpenter</div>
+                <div class="col col-3" data-label="Amount">$115</div>
+                <div class="col col-4" data-label="Payment Status">Pending</div>
+              </li>
+            </ul>
+          </div>
+    
 
 
 

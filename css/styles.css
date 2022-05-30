@@ -33,9 +33,9 @@ body{
 #textoprincipal{
 
     border-radius: 5%;
-   margin-left: 60%;
-   
-   margin-top: 7%;  
+    margin-left: 30%;
+     
+     margin-top: 8%;   
    font-size: xx-large;
 }
 #primerp{
@@ -107,14 +107,14 @@ background-color: white;
         margin-left: 2%;
     }
     body{
-      background-image: url("../img/otras/ball2.png");
+      background-image: url("../img/otras/estadio2v2.png");
     }
     #textoprincipal{
 
       border-radius: 5%;
-     margin-left: 70%;
+     margin-left: 30%;
      
-     margin-top: 5%;  
+     margin-top: 8%;  
      font-size: xx-large;
   }
   #primerp{
@@ -160,6 +160,7 @@ th, td {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    margin-left: 30%;
   }
   
   .button span {
@@ -187,6 +188,20 @@ th, td {
     right: 0;
   }
 
+  .header div{
+    float: left;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 35px;
+    font-weight: 550;
+    margin-top: -40px;
+    margin-left: 32.5%;
+    margin-bottom: -10px;
+}
+
+.header div span{
+    color: #7d90e4 !important;
+}
 
 
 

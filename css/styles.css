@@ -14,7 +14,8 @@ body{
     background-attachment: fixed;
     z-index: -1;
     background-image: url("../img/otras/estadio2.jpg");
- 
+ padding: 12px;
+
 
 
 }
@@ -33,9 +34,9 @@ body{
 #textoprincipal{
 
     border-radius: 5%;
-   margin-left: 60%;
-   
-   margin-top: 7%;  
+    margin-left: 30%;
+     
+     margin-top: 8%;   
    font-size: xx-large;
 }
 #primerp{
@@ -76,7 +77,7 @@ body{
     
     padding-top: 5%;
 }
-#div3{
+#pencas{
     height: 100%;
 background-color: white;
   /*Cambiar para resolucion de monitor */
@@ -88,7 +89,7 @@ background-color: white;
     #barra {
         height: 10%;
     }
-    #div3{
+    #pencas{
         margin-top: -2%;
         height: 89.5%;
     }
@@ -107,14 +108,14 @@ background-color: white;
         margin-left: 2%;
     }
     body{
-      background-image: url("../img/otras/ball2.png");
+      background-image: url("../img/otras/estadio2v2.png");
     }
     #textoprincipal{
 
       border-radius: 5%;
-     margin-left: 70%;
+     margin-left: 30%;
      
-     margin-top: 5%;  
+     margin-top: 8%;  
      font-size: xx-large;
   }
   #primerp{
@@ -160,6 +161,7 @@ th, td {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    margin-left: 30%;
   }
   
   .button span {
@@ -186,6 +188,81 @@ th, td {
     opacity: 1;
     right: 0;
   }
+
+  .header div{
+    float: left;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 35px;
+    font-weight: 550;
+    margin-top: -40px;
+    margin-left: 32.5%;
+    margin-bottom: -10px;
+}
+
+.header div span{
+    color: #7d90e4 !important;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6 {
+	margin:0;
+}
+
+.container {
+	max-width: 1000px;
+	margin-right:auto;
+	margin-left:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+}
+
+.table {
+  font-family:'Source Sans Pro', sans-serif;
+	width:100%;
+	border:1px solid #EEEEEE;
+}
+
+.table-header {
+	display:flex;
+	width:100%;
+	background:#000;
+	padding:(18) 0;
+}
+
+.table-row {
+	display:flex;
+	width:100%;
+	padding:(18) 0;
+
+}
+.table-row:nth-of-type(odd) {
+  background:#EEEEEE;
+}
+
+.tabledata, .headeritem {
+	flex: 1 1 20%;
+	text-align:center;
+}
+
+.headeritem {
+	text-transform:uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

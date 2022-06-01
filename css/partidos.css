@@ -43,6 +43,13 @@
 }
 #espaciocreadoporqueodiocss{
     height: 2%;
+    background-color: black;
+    border-radius: 4px;
+
+}
+#espaciocreadoporqueodiocss{
+    border-radius: 4px;
+    height: 6%;
     width: 100%;
     background-color: rgb(24, 23, 23);
 
@@ -109,7 +116,7 @@ transition: 0.5s;
 #moduloinfopartido{
     width: auto;
     height: 40%;
-
+    border-radius: 4px;
     background-color: red;
 
 

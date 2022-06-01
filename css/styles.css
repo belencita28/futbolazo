@@ -77,6 +77,7 @@ body{
 #pencas{
     height: 100%;
 background-color: white;
+border-radius: 4px;
   /*Cambiar para resolucion de monitor */
 }
 
@@ -88,6 +89,7 @@ background-color: white;
     }
     #pencas{
         margin-top: -2%;
+        height: 130%;
        
     }
     #modulopartidos{
@@ -132,7 +134,7 @@ background-color: white;
 footer {
     height: 30%;
     background-color: #e1e0e7; 
-  
+    border-radius: 4px;
     margin-bottom: 0%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
@@ -207,6 +209,7 @@ th, td {
 .responsive-table{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 padding-top: 60px;
+margin-left: -4%;
 }
 
 
@@ -244,16 +247,16 @@ h2 {
   transform: scale(1.01) ;
 }
 .col-1 {
-  flex-basis: 10%;
+  flex-basis: 25%;
 }
 .col-2 {
-  flex-basis: 40%;
+  flex-basis: 25%;
 }
 .col-3 {
-  flex-basis: 25%;
+  flex-basis: 43%;
 }
 .col-4 {
-  flex-basis: 25%;
+  flex-basis: 7%;
 }
 
 li {
@@ -289,7 +292,64 @@ li {
   }
 }
 
+.unirme {
+  color: white;
+  width: 100px;
+  height: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: -3%;
+  color: black; 
+  border: 2px solid #7d90e4;
+  transition: all 250ms;
+  overflow: hidden;
+}
 
+
+.unirmep{
+ margin-top: -8px;
+ margin-left: -5px;
+}
+
+.cargarmas {
+  color: white;
+  width: 93%;
+  height: 0px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: -3%;
+  transition: 0.17s;
+}
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 1px solid #c3c3c4;
+}
+.cargarmasp{
+  color: #727272;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 60px;
+  margin-top: -10px;
+  margin-left: 48%;
+ }
+ .cargarmasp:hover{
+   color: #b3b3b8;
+ }
+ .cargarmas:hover{
+  transform: scale(1.01) ;
+}
 
 
 

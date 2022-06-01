@@ -2,10 +2,10 @@
     height: 2%;
     width: 100%;
     background-color: rgb(240, 240, 240);
-
+    border-radius: 4px;
 }
 #botonvernoticias{
-   
+   margin-top: 1%;
     height: 100%;
     width: 40%;
     color: black;
@@ -37,7 +37,10 @@
     right: 0;
 }
 #modulonoticias{
-    background-color: rgb(240, 240, 240);
+   border-radius: 4px;
+   border-top-right-radius: 0%;
+   border-top-left-radius: 0%;
+    background-color: white;
     display: flex; 
     height: 50.5%;
     

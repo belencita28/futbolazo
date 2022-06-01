@@ -295,6 +295,7 @@ li {
 .unirme {
   color: white;
   width: 100px;
+  background-color: #FFFFFF;
   height: 20px;
   padding: 15px 32px;
   text-align: center;
@@ -309,6 +310,12 @@ li {
   border: 2px solid #7d90e4;
   transition: all 250ms;
   overflow: hidden;
+}
+
+.unirme:hover{
+ 
+  background-color: #7d90e4;
+  color: #FFFFFF;
 }
 
 

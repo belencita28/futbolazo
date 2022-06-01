@@ -1,7 +1,7 @@
 #espaciocreadoporqueodiocss3{
     height: 2%;
     width: 100%;
-    background-color: white;
+    background-color: rgb(240, 240, 240);
 
 }
 #botonvernoticias{
@@ -37,7 +37,7 @@
     right: 0;
 }
 #modulonoticias{
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     display: flex; 
     height: 50.5%;
     

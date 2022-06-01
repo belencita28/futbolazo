@@ -64,8 +64,8 @@ transition: 0.5s;
 #iconolocal{
     margin-top: 5%;
     margin-left: 5%;
-    width: 40%;
-    height: 10%; 
+    width: 30%;
+    height: 5%;
 }
 #cartelvs{
     
@@ -81,8 +81,8 @@ transition: 0.5s;
 }
 #iconovisitante{
     margin-top: 5%;
-    width: 40%;
-    height: 10%;
+    width: 30%;
+    height: 5%;
     margin-right: 5%;
    /* margin-left: 9%;
     margin-right: 2%;

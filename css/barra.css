@@ -12,7 +12,7 @@ li {
 }
 
 .l{
-  margin-top: 19px;
+  margin-top: -20px;
 }
 #barra{
   background-color: transparent;
@@ -26,7 +26,7 @@ li a:hover {
 /*pensado para monitor 1080x1920px */
   transition: all 0.4s ease-in-out;
   border-bottom: 2px solid white; /*Cambiar para el modo claro */
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 #b{
  
@@ -35,12 +35,13 @@ li a:hover {
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 @media screen and (max-width: 1366px) {
   li {
-    margin-top: 0px;
+    margin-top: 1px;
   }
   .l{
-    margin-top: -10px;
+    margin-top: -25px;
   }
   li #marg{
     float: right;

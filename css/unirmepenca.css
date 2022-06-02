@@ -84,6 +84,7 @@
   }
   
   .crearmsg button{
+    cursor: pointer;
     background-color: #404040;
     border: 2px solid white;
     border-radius: 10px;

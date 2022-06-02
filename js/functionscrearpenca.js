@@ -4,11 +4,17 @@ $(document).ready(function() {
        var nombre= document.getElementById("nombre").value;
        var objetivo= document.getElementById("objetivo").value;
         if(nombre=="" || objetivo==""){
-        addError(); //no anda la funcion
+            var nombre= document.getElementById("nombre");
+            var objetivo= document.getElementById("objetivo");
+            var msg= document.getElementById("msg");
+            nombre.style.border='solid 2px #ff6054';
+            objetivo.style.border='solid 2px #ff6054';
+            msg.style.display='block';
         }else{
-            removeError();
+            var msg= document.getElementById("msg");
             var elem = document.getElementById("codigo");
             elem.style.display='block';
+            msg.style.display='none';
         }
        
     });
@@ -21,16 +27,3 @@ function copyClipboard() {
     alert("texto copiado: " + copyText.value);
   }
 
-
-  var nombre= document.getElementById("nombre");
-  var objetivo= document.getElementById("objetivo");
-
-
-  function addError() {
-    $('#nombre').addClass('error');
-    $('#objetivo').addClass('error'); };
-
-
-  function removeError() { 
-      nombre.classList.remove('error');
-  objetivo.classList.remove('error'); };

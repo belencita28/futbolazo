@@ -297,7 +297,7 @@ text-align: left;
 margin: 0;
 background: transparent;
 padding: 0;
-
+cursor: pointer;
 border: none;
 }
 
@@ -587,7 +587,7 @@ max-height: 540px;
     margin: 0;
     background: transparent;
     padding: 0;
-
+    cursor: pointer;
     border: none;
   }
   

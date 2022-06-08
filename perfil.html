@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/perfil.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/functionscrearpenca.js"> </script>
+    </head>
+<body>
+    <div class="body"></div>
+    <div class="grad"></div>
+    <div class="container">
+      <div class="atras">
+
+        <div id="fotodeperfilcontenedor"><img id="fotodeperfil" src="img/1x1/bo.svg"> </div>
+
+
+        <div id="editarfoto"></div>
+
+
+        <div class="crearmsg">
+          <div class="textcontent">
+            <p class="title">
+        <div id="codigo" style="display: none;">
+          <input type="text" id="p" style="color:#0cad4c;font-weight: 550;font-size:x-large;background:none; border:none; outline:0;width:fit-content;caret-color: transparent;" value="45332415" > 
+          <img src="img/pp4 (1).png" style="margin-left:45%;margin-top:-10%;cursor: pointer;"  onclick="copyClipboard('#p')">
+        </div>
+
+
+          
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="unirme">
+          <h2>Editar datos</h2>
+          <div class="inputbox">
+            <input id="nombre" type="text" name="nombre" placeholder="Cambiar nombre de usuario">
+            <input id="objetivo" type="text" name="objetivo" placeholder="Cambiar constraseña ">
+            <input id="nombre" type="text" name="nombre" placeholder="Cambiar Mail">
+            <input id="objetivo" type="text" name="objetivo" placeholder="  SANCIÓN AL PERDEDOR">
+            
+          </div>
+          <div class="mensaje" style="display:flex ;"><button id="crearbtn">Guardar cambios</button>
+          <p id="msg">No tan rápido! rellene los campos para crear su penca.</p>
+          </div>
+          
+        </div>
+  
+  
+      </div>
+    
+    </div>
+  </body>
+  
+  </html>

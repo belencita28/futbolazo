@@ -164,3 +164,262 @@ font-size: x-large;
   
   
 }
+
+
+
+
+@media screen and (max-width: 1366px) {
+    .titlep{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: larger;
+        font-weight: 500;
+    }
+    .fechap{
+        margin-top: -1.5%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: medium;
+        font-weight: 400; 
+        color: #6d6c6c;
+    }
+    .partidofecha{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .fecharesult{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: medium;
+        font-weight: 500;
+        margin-top: 3%;
+        margin-left: 60%;
+    }
+    .fecha-result{
+        text-align: right;
+        margin-right: -70px;
+        border-left: 1px solid #bdbcbc;
+    }
+.fecharesult2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    margin-left: 40%;
+    margin-bottom: -0.5%;
+}
+.equipos{
+    text-align: left;
+
+}
+#banderapartido2{
+width: 30px;
+height: auto;
+}
+
+    .main{
+        display: flex;
+        background-color: transparent;
+        width: 100%;
+        height: 70%;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    .news{
+        background-color: transparent;
+        border: 1px solid rgb(184, 184, 184);
+        border-radius: 4px;
+        width: 30%;
+        height: auto;
+        margin: 1% 1% 1% 1%;
+        transition: 0.35s;
+    }
+    .container1{
+        margin-left: 4%;
+        background-color: transparent;
+        display: flex;
+    }
+    .news:hover{
+        transform: scale(1.02);
+        border: 2px solid rgb(184, 184, 184);
+    }
+   
+
+
+
+.list-choice{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width:300px;
+  margin:1em auto;
+  position: relative;
+  cursor: pointer;  
+}
+.list-choice input[type="radio"]{
+  position:absolute;
+  left:-9999px;
+}
+
+.list-choice-title {
+width: 100%;
+display: block;
+background: #c7c7c7;
+text-align: center;
+padding: 0.55em 1em;
+box-sizing: border-box;
+color: #696969;
+text-shadow: 0 1px 0 #CACACA;
+border-radius: 0.2em;
+}
+.list-choice:hover .list-choice-title {
+border-radius:0.2em 0.2em 0 0;
+}
+.list-choice-objects label:nth-last-of-type(1) span{
+  border-radius:0 0 0.2em 0.2em;
+}
+.list-choice input[type="radio"] + span {
+color: #696969;
+background: #c7c7c7;
+padding: 0.55em 1em;
+display: block;
+text-align: center;
+box-sizing: border-box;
+cursor: pointer;
+width: 100%;
+}
+.list-choice-objects {
+position: absolute;
+top: 0;
+padding-top: 2.1em;
+box-sizing: border-box;
+width: 100%;
+overflow: hidden;
+max-height: 0;
+transition: all 250ms ease;
+}
+.list-choice:hover .list-choice-objects  input[type="radio"] + span {
+position: relative;
+top: 0;
+transition: all 250ms ease-in-out;
+}
+.list-choice:hover input[type="radio"] + span:hover {
+background:#acabab;
+}
+.list-choice:hover input[type="radio"]:checked + span:hover {
+background:#0cad4c;
+color: #FFF;
+}
+.list-choice input[type="radio"]:checked + span {
+background: #0cad4c;
+color: #FFF;
+position: absolute;
+top: 0em;
+border-radius: 0.2em;
+}
+.list-choice:hover input[type="radio"]:checked + span {
+border-radius: 0;
+}
+.list-choice:hover .list-choice-objects label:nth-last-of-type(1) input[type="radio"]:checked + span{
+  border-radius:0 0 0.2em 0.2em;
+}
+
+.list-choice:hover .list-choice-objects {
+max-height: 540px;
+}
+
+.containerselects{
+    display: flex;
+    text-align: left;
+}
+
+
+.futbolazo {
+    margin: 0;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+  }
+  
+ 
+  .futbolazo {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #0cad4c;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 500px;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+
+  .futbolazo:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+
+  #search-box {
+    position: relative;
+    width: 40%;
+    margin: 0;
+    margin-top: 1.5%;
+    }
+    #search-form {
+    height: 32px;
+    border: 1px solid #acabab;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    overflow: hidden;
+    }
+    #search-text {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+    }
+    
+    #search-box input[type="text"] {
+    width: 90%;
+    padding: 8px 0 12px 1em;
+    color: #333;
+    outline: none;
+    }
+    #search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 34px;
+    width: 80px;
+    font-size: 14px;
+    color: #656;
+    text-align: center;
+    line-height: 4px;
+    border-width: 0;
+    background-color: #cfcfcf;
+    -webkit-border-radius: 0px 15px 15px;
+    -moz-border-radius: 0px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+    }
+
+    }
+   
+  
+
+

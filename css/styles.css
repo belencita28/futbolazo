@@ -405,8 +405,31 @@ li {
   color: black;
 }
 
-
-
+#top {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  z-index: 99;
+  border: none; 
+  outline: none;
+ margin-left: 45%;
+  background-color: #353535; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 5px; 
+  font-size: 18px; 
+}
+#top span::after{
+  content: '\2191';
+right: -20px;
+}
+#top:hover {
+  color: #b3b3b8;
+}
+html {
+  scroll-behavior: smooth;
+}
 
 
 

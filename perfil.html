@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/perfil.css">
+       
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -14,22 +15,23 @@
 
         <div id="fotodeperfilcontenedor"><img id="fotodeperfil" src="img/1x1/bo.svg"> </div>
 
-
-        <div id="editarfoto"><img  src="img/editar.png" width="80%" ></div>
-
+        
+        <div id="editarfoto"><img  src="img/editar.png" width="30%" style="cursor: pointer;" ></div>
+        <div id="nombreuser">JUANSITO</div>
 
       </div>
       <div class="main">
         <div class="unirme">
           <h2>EDITAR DATOS DE USUARIO</h2>
           <div class="inputbox">
-            <input id="nombre" type="text" name="nombre" placeholder="Cambiar nombre de usuario">
-            <input id="objetivo" type="password" name="objetivo" placeholder="Cambiar constraseña ">
-            <input id="nombre" type="text" name="nombre" placeholder="Cambiar Mail">
+            <input id="user" type="text" name="user" value="Juansito">
+            <input id="nombre" type="text" name="nombre" value="Juan">
+            <input id="apellido" type="text" name="apellido" value="Perez">
+            <input id="pass" type="password" name="pass" value="12345">
+            <input id="mail" type="text" name="mail" value="juanperez@gmail.com">
             
           </div>
           <div class="mensaje" style="display:flex ;"><button id="crearbtn">Guardar</button>
-          <p id="msg">No tan rápido! rellene los campos para crear su penca.</p>
           </div>
           
         </div>
@@ -42,16 +44,6 @@
 
 
 
-
-<div id="div2">
-    <div id="titulomispencas">
-      <h2>MIS PENCAS</h2>
-        </div>
-    <div id="mispencas"></div> 
-
-
-    
-</div>
 
 
 

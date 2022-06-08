@@ -73,12 +73,12 @@ display: inline-flex;
 .main{
 background-color: white;
 border-radius: 12px;
-height: 120%;
+height: 110%;
 width: 50%;
 z-index: 10;
 position: absolute;
 right:0;
-margin-top: -5%;
+margin-top: -2%;
 margin-right: 3%;
 margin-left: 3%;
 transition: right .8s ease-in-out;
@@ -119,6 +119,7 @@ margin-top: 20px;
 }
 
 .unirme, .signup{
+  margin-top: 5%;
 padding: 20px;
 text-align: center;
 }

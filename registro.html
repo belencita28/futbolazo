@@ -1,6 +1,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/register.css">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta name="google-signin-client_id" content="166498106802-rpp68m7mu4q648kkaslotmqvs1ou4cti.apps.googleusercontent.com">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="js/functionsregister.js"> </script>
         <meta charset="UTF-8">
@@ -16,19 +18,21 @@
 		</div>
 		<br>
 		<div class="login" id="login">
-				<input type="text" placeholder="usuario" name="usuario">
-                <input type="text" placeholder="mail" name="mail"><br>
-				<input type="password" placeholder="contraseña" name="contraseña"><br>
-                <input type="password" placeholder="confirmar contraseña" name="contraseña"><br>
-				<input type="button" value="Registrarme">
-                <p>Registrarme con google <a href="#">Sign up</a>.</p>
+				<input type="text" placeholder="usuario" name="usuario" id="user">
+                <input type="text" placeholder="mail" name="mail" id="mail"><br>
+				<input type="password" placeholder="contraseña" name="contraseña" id="pass"><br>
+                <input type="password" placeholder="confirmar contraseña" name="contraseña" id="passconfirm"><br>
+				<input type="button" id="registrarme" value="Registrarme">
+                <p id="msg" style="color: rgb(255, 0, 0) ; font-weight: 500; background-color: white; width: fit-content; display: none;">No tan rápido! rellene los campos para registrarse.</p>
+                <p>Registrarme con google</p>
+                <!--  <a href="#" onclick="signOut();">Sign out</a> -->
                 <p>Ya tienes una cuenta? <a href="#" onclick="contenedorlogin()">Sign in</a>.</p>
-                
 		</div>
         <div class="register" id="login2">
-            <input type="text" placeholder="mail" name="mail"><br>
-            <input type="password" placeholder="contraseña" name="contraseña"><br>
-            <input type="button" value="Login">
+            <input type="text" placeholder="mail" name="mail" id="mail2"><br>
+            <input type="password" placeholder="contraseña" name="contraseña" id="pass2"><br>
+            <input type="button" value="Login" id="login1">
+            <p id="msg2" style="color: rgb(255, 0, 0) ; font-weight: 500; background-color: white; width: fit-content; display: none;">No tan rápido! rellene los campos para registrarse.</p>
             <p>No tienes una cuenta? <a href="#" onclick="contenedorregister()" >Sign up</a>.</p>
             
     </div>

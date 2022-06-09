@@ -206,8 +206,46 @@ th, td {
     font-weight: 550;
     margin-top: 40px;
     margin-left: 267%;
-
+/*hacer animacion investigar slide toggle dow*/
 }
+.header div {
+  animation: fadein 2s; 
+ }
+ @keyframes fadein {
+  0% {
+  opacity:0;
+  }
+  10%{
+    opacity:0.1;
+    }
+  15%{
+    opacity:0.2;
+    }
+    20%{
+      opacity:0.3;
+      }
+    25%{
+      opacity:0.4;
+      }
+  35%{
+  opacity:0.5;
+  }
+  45%{
+    opacity:0.6;
+    }
+    55%{
+      opacity:0.7;
+      }
+      70%{
+        opacity:0.8;
+        }
+        85%{
+          opacity:0.9;
+          }
+  100% {
+  opacity:1;
+  }
+ }
 
 .header div span{
     color: #7d90e4 !important;
@@ -433,9 +471,5 @@ right: -20px;
 html {
   scroll-behavior: smooth;
 }
-
-
-
-
 
 

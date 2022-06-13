@@ -1,7 +1,5 @@
-$(document).ready(function() {
 
 
-});
 function scrollFunction() {
    
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
@@ -9,6 +7,8 @@ function scrollFunction() {
     } else {
       $('#top').css('display','none');
     }
+
+  
   }
   
   

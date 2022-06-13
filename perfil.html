@@ -5,18 +5,64 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/functionscrearpenca.js"> </script>
+        <script src="js/perfil.js"> </script>
     </head>
 <body>
     <div class="body"></div>
     <div class="grad"></div>
+    <div class="loader-page"><p>¡Bienvenido <span id="user">Juansito!</span> </p> <p id="p1"> Estamos preparando todo para ti...</p></div>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span onclick="spanclick()" class="close" id="close">&times;</span>
+   
+  <div class="bcont">
+    <div class="cont"> 
+      <div onmouseover="seleccion(1)" onmouseout="out(1)"><img src="img/avatars/PNG/128x128/128_1.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check1" /></div>
+      <div onmouseover="seleccion(2)" onmouseout="out(2)"><img src="img/avatars/PNG/128x128/128_2.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check2" /></div>
+      <div onmouseover="seleccion(3)" onmouseout="out(3)"><img src="img/avatars/PNG/128x128/128_3.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check3" /></div>
+      <div onmouseover="seleccion(4)" onmouseout="out(4)"><img src="img/avatars/PNG/128x128/128_4.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check4" /></div>
+      <div onmouseover="seleccion(5)" onmouseout="out(5)"><img src="img/avatars/PNG/128x128/128_5.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check5" /></div>
+      <div onmouseover="seleccion(6)" onmouseout="out(6)"><img src="img/avatars/PNG/128x128/128_6.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check6" /></div>
+      <div onmouseover="seleccion(7)" onmouseout="out(7)"><img src="img/avatars/PNG/128x128/128_7.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check7" /></div>
+      <div onmouseover="seleccion(8)" onmouseout="out(8)"><img src="img/avatars/PNG/128x128/128_8.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check8" /></div>
+    </div>
+    <div class="cont">
+      <div onmouseover="seleccion(9)" onmouseout="out(9)"><img src="img/avatars/PNG/128x128/128_9.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check9" /></div>
+      <div onmouseover="seleccion(10)" onmouseout="out(10)"><img src="img/avatars/PNG/128x128/128_10.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check10" /></div>
+      <div onmouseover="seleccion(11)" onmouseout="out(11)"><img src="img/avatars/PNG/128x128/128_11.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check11" /></div>
+      <div onmouseover="seleccion(12)" onmouseout="out(12)"><img src="img/avatars/PNG/128x128/128_12.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check12" /></div>
+      <div onmouseover="seleccion(13)" onmouseout="out(13)"><img src="img/avatars/PNG/128x128/128_13.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check13" /></div>
+      <div onmouseover="seleccion(14)" onmouseout="out(14)"><img src="img/avatars/PNG/128x128/128_14.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check14" /></div>
+      <div onmouseover="seleccion(15)" onmouseout="out(15)"><img src="img/avatars/PNG/128x128/128_15.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check15" /></div>
+      <div onmouseover="seleccion(16)" onmouseout="out(16)"><img src="img/avatars/PNG/128x128/128_16.png" alt="" class="avatar">
+        <input type="checkbox" class="checkbox" id="check16" /></div>
+    </div>
+  </div>
+  </div>
+</div>
+
     <div class="container">
       <div class="atras">
 
-        <div id="fotodeperfilcontenedor"><img id="fotodeperfil" src="img/1x1/bo.svg"> </div>
+        <div id="fotodeperfilcontenedor"><img id="fotodeperfil" src="img/avatars/PNG/256x256/256_1.png"> </div>
 
         
-        <div id="editarfoto"><img  src="img/editar.png" width="30%" style="cursor: pointer;" ></div>
+        <div id="editarfoto" onclick="clickbtn()"><img  src="img/editar.png" width="30%" style="cursor: pointer;" ></div>
         <div id="nombreuser">JUANSITO</div>
 
       </div>
